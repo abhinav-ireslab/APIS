@@ -8,7 +8,6 @@ import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import static io.restassured.RestAssured.given;
 import org.testng.annotations.Test;
-import static org.hamcrest.Matchers.equalTo;
 
 public class GetImages {
 
@@ -31,5 +30,10 @@ public class GetImages {
 		System.out.print(responseString);
 
 
+	}
+
+	private ResponseAwareMatcher<Response> equalTo(String string) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 }

@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="1678" started-at="2020-03-02T09:43:51Z" finished-at="2020-03-02T09:43:53Z">
+  <suite name="Default suite" duration-ms="2523" started-at="2020-04-13T09:57:16Z" finished-at="2020-04-13T09:57:19Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="1678" started-at="2020-03-02T09:43:51Z" finished-at="2020-03-02T09:43:53Z">
+    <test name="Default test" duration-ms="2523" started-at="2020-04-13T09:57:16Z" finished-at="2020-04-13T09:57:19Z">
       <class name="APIs.GetImages">
-        <test-method status="FAIL" signature="Test()[pri:0, instance:APIs.GetImages@91161c7]" name="Test" duration-ms="1656" started-at="2020-03-02T09:43:51Z" finished-at="2020-03-02T09:43:53Z">
+        <test-method status="FAIL" signature="Test()[pri:0, instance:APIs.GetImages@589838eb]" name="Test" duration-ms="2499" started-at="2020-04-13T09:57:16Z" finished-at="2020-04-13T09:57:19Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[1 expectation failed.
@@ -50,7 +50,7 @@ at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCal
 at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
 at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
 at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
-at APIs.GetImages.Test(GetImages.java:26)
+at APIs.GetImages.Test(GetImages.java:25)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
