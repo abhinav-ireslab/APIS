@@ -1,5 +1,6 @@
 package APIs;
 
+import org.testng.annotations.Test;
 import java.util.List;
 import static io.restassured.RestAssured.given;
 import io.restassured.RestAssured;

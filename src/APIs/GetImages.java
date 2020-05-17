@@ -1,5 +1,6 @@
 package APIs;
 
+import org.testng.annotations.Test;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.http.Method;
@@ -23,17 +24,13 @@ public class GetImages {
 				.
 
 				when().get("/myaccount/api/v1/images/").then().assertThat().statusCode(200).and()
-				.body("data[1].name", equalTo("C2.12GB-CentOS-6.10")).contentType(ContentType.JSON).extract()
+				.contentType(ContentType.JSON).extract()
 				.response();
 		String responseString = res.asString();
 
 		System.out.print(responseString);
 
 
-	}
-
-	private ResponseAwareMatcher<Response> equalTo(String string) {
-		// TODO Auto-generated method stub
-		return null;
+	
 	}
 }

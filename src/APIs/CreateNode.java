@@ -1,5 +1,6 @@
 package APIs;
 
+import org.testng.annotations.Test;
 import static io.restassured.RestAssured.given;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
