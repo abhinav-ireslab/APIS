@@ -9,6 +9,8 @@ import io.restassured.response.Response;
 import org.testng.annotations.Test;
 import static org.hamcrest.Matchers.equalTo;
 
+import java.util.ArrayList;
+
 public class CreateNode {
 
 	@Test
@@ -44,7 +46,14 @@ public class CreateNode {
 		String data =js.getString("data");
 		System.out.println(data);
 		
+	/*	JsonArray json = new JsonArray(responseString);
 		
+		ArrayList list = new ArrayList();
+		
+		for(int i = 0; i<json.length; i++) {
+			
+			list.add(json.getString(i));
+		}*/
 	}
 
 	}
